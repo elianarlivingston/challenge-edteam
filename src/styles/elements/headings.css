@@ -1,0 +1,46 @@
+h1,
+h2, 
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    line-height: 1.13;
+    color: var(--text-color-dark);
+    overflow-wrap: break-word;
+    word-wrap: anywhere;
+}
+
+h1 {
+    font-size: var(--fs-xlarge);
+    margin: 0;
+    padding: var(--spacing-4) 0;
+}
+
+h2 {
+    font-size: var(--fs-large);
+    margin: 0;
+    padding: var(--spacing-3) 0;
+}
+
+h3 {
+    font-size: var(--fs-medium);
+    margin: 0;
+}
+
+h4 {
+    font-size: var(--fs-regular);
+}
+
+h5 {
+    font-size: var(--fs-small);
+}
+
+h6 {
+    font-size: var(--fs-xsmall);
+}
+
+h3, h4, h5, h6 {
+    margin: 0;
+    padding: var(--spacing-1) 0;
+}

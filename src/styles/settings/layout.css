@@ -1,0 +1,14 @@
+:root {
+    --max-width: 71.25rem;
+    --container: calc(calc(100vw - var(--max-width)) / 2);
+
+    /* spacing */
+    --spacing-1: .25em;
+    --spacing-2: .5em;
+    --spacing-3: .75em;
+    --spacing-4: 1em;
+    --spacing-5: 1.25em;
+    --spacing-6: 1.5em;
+    --spacing-7: 1.75em;
+    --spacing-8: 2em;
+}

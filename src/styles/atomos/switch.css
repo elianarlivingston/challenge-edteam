@@ -1,0 +1,30 @@
+.switch {
+    border: none;
+    outline: none;
+    appearance: none;
+
+    display: block;
+    width: 2.5rem;
+    height: var(--spacing-5);
+    border-radius: 9999px;
+    background-color: var(--bg-color-base);
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.1) inset;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.switch::after {
+    content: "";
+    display: block;
+    width: var(--spacing-6);
+    height: var(--spacing-6);
+    border-radius: 9999px;
+    background-color: var(--bg-color-base);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+    border: .5px solid var(--text-color-light);
+}
+
+.switch:checked {
+    justify-content: flex-end;
+}

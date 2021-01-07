@@ -1,0 +1,81 @@
+.m-container-gallery {
+    width: 100%;
+    padding-bottom: 56.25%;
+    position: relative;
+    overflow: hidden;
+
+    border-radius: var(--spacing-3);
+}
+
+.m-gallery {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: grid;
+    gap: var(--spacing-1);
+}
+
+.m-gallery-1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "img1"
+    ;
+}
+
+.m-gallery-2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "img1 img2"
+        "img1 img2"
+    ;
+}
+
+.m-gallery-3 {
+    grid-template-columns: 2fr  1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+        "img1 img2 img2"
+        "img1 img3 img3"
+    ;
+}
+
+.m-gallery-4 {
+    grid-template-columns: 2fr  1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+        "img1 img2 img3"
+        "img1 img4 img4"
+    ;
+} 
+
+.m-gallery-5 {
+    grid-template-columns: 2fr  1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "img1 img2 img3"
+        "img1 img4 img5"
+    ;
+}
+
+.m-gallery img:nth-child(1) {
+    grid-area: img1;
+}
+
+.m-gallery img:nth-child(2) {
+    grid-area: img2;
+}
+
+.m-gallery img:nth-child(3) {
+    grid-area: img3;
+}
+
+.m-gallery img:nth-child(4) {
+    grid-area: img4;
+}

@@ -1,0 +1,45 @@
+/* Settings */
+@import url("./styles/settings/colors.css");
+@import url("./styles/settings/typography.css");
+@import url("./styles/settings/layout.css");
+@import url("./styles/settings/z-index.css");
+
+/* Generic */
+@import url("./styles/generic/normalize.css");
+@import url("./styles/generic/box-sizing.css");
+
+/* Elements */
+@import url("./styles/elements/body.css");
+@import url("./styles/elements/headings.css");
+@import url("./styles/elements/img.css");
+@import url("./styles/elements/links.css");
+@import url("./styles/elements/figure.css");
+@import url("./styles/elements/p.css");
+@import url("./styles/elements/address.css");
+@import url("./styles/elements/form.css");
+
+/* Object */
+@import url("./styles/objects/container.css");
+@import url("./styles/objects/ui-list.css");
+@import url("./styles/objects/ui-nav.css");
+
+/* Atomos */
+@import url("./styles/atomos/btn.css");
+@import url("./styles/atomos/typography.css");
+@import url("./styles/atomos/publication-photo.css");
+@import url("./styles/atomos/switch.css");
+@import url("./styles/atomos/header.css");
+
+
+/* Moleculas */
+@import url("./styles/moleculas/gallery.css");
+@import url("./styles/moleculas/avatar.css");
+@import url("./styles/moleculas/card.css");
+@import url("./styles/moleculas/form.css");
+@import url("./styles/moleculas/modal.css");
+@import url("./styles/moleculas/app.css");
+
+
+/* Utilities */
+@import url("./styles/utilities/colors.css");
+@import url("./styles/utilities/layout.css");

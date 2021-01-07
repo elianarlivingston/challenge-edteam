@@ -1,0 +1,33 @@
+/* light */
+:root {
+    --primary-color-base: #5C54CB;
+    --primary-color-light: #6B64D0;
+    --primary-color-dark: #544CB9;
+
+    --bg-color-base:  #E0E6FE;
+    --bg-color-light: #FFFFFF;
+    --bg-color-dark: #dddddd;
+
+    --text-color-base: #807D91;
+    --text-color-light: #b8b7bd;
+    --text-color-dark: #2E2C4C;
+
+    --danger: #EF4444;
+    --danger-light: #f19393;
+    --success: #10B981;
+}
+
+/* dark */
+:root.dark-theme {
+    --primary-color-base: #5C54CB;
+    --primary-color-light: #6B64D0;
+    --primary-color-dark: #544CB9;
+
+    --bg-color-base: #22273A;
+    --bg-color-light:#272D42;
+    --bg-color-dark: #1B1F2E ;
+
+    --text-color-base: #B8BCD5;
+    --text-color-light: #6D7181;
+    --text-color-dark: #d1d2d4;
+}

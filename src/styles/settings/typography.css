@@ -1,0 +1,11 @@
+:root {
+    --base: 1rem;
+    --ratio: 1.25;
+
+    --fs-regular: var(--base);
+    --fs-small: calc(var(--base) / var(--ratio) );
+    --fs-xsmall: calc(var(--fs-small) / var(--ratio) );
+    --fs-medium:  calc(var(--fs-regular) * var(--ratio) );
+    --fs-large:  calc(var(--fs-medium) * var(--ratio) );
+    --fs-xlarge:  calc(var(--fs-large) * var(--ratio) );
+}

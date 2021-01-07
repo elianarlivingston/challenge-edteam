@@ -1,0 +1,10 @@
+.o-ui-nav {
+    margin: 0;
+    padding: 0;
+}
+
+.o-ui-nav--horizontal {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

@@ -1,0 +1,40 @@
+.text-color-base {
+    color: var(--text-color-base);
+}
+
+.text-color-light {
+    color: var(--text-color-light);
+}
+.text-color-dark {
+    color: var(--text-color-dark);
+}
+
+.weight-600 {
+    font-weight: 600;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.block {
+    display: block;
+}
+
+
+.z-1 {
+    z-index: var(--z1);
+}
+
+.text-color-danger {
+    color: var(--danger);
+}
+
+.bg-color-danger {
+    background-color: var(--danger-light);
+}
+
+.text-setting {
+    overflow-wrap: break-word;
+    word-wrap: anywhere;
+}

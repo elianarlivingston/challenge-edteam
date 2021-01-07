@@ -1,0 +1,9 @@
+a {
+    font-size: var(--fs-regular);
+    color: var(--primary-color-base);
+}
+
+a:hover,
+a:focus {
+    color: var(--primary-color-dark)
+}

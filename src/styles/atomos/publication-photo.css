@@ -1,0 +1,42 @@
+.publication-photo {
+    --square: 3.5rem;
+    width: var(--square);
+    height: var(--square);
+    border-radius: var(--spacing-2);
+    position: relative;
+}
+
+.publication-photo__close {
+    border: none;
+    outline: none;
+
+    --square: var(--spacing-6);
+    width: var(--square);
+    height: var(--square);
+    font-size: var(--fs-small);
+    border-radius: 9999px;
+
+    position: absolute;
+    top: -.5rem;
+    right: -.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: var(--text-color-dark);
+    color: var(--text-color-light);
+
+}
+
+.publication-photo__img {
+    border-radius: inherit;
+}
+
+.publication-photo--add {
+    border: 2px dashed var(--text-color-light);
+    color: var(--text-color-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

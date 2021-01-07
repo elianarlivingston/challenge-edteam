@@ -1,0 +1,11 @@
+.o-container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+@media screen and (min-width: 1172px) {
+    .o-container {
+        padding-left: var(--container) !important;
+        padding-right: var(--container) !important;
+    }
+}

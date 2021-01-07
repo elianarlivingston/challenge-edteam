@@ -1,0 +1,17 @@
+.a-btn {
+    border: none;
+    outline: none;
+    
+    padding: .75em 1em;
+    font-size: var(--fs-regular);
+    color: var(--text-color-base);
+
+    transition: all 300ms ease-in-out;
+    background: var(--bg-color-base);
+}
+
+.a-btn--active:active {
+    background: var(--bg-color-dark);
+
+    transition: all 300ms ease-in-out;
+}

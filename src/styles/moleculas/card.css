@@ -1,0 +1,9 @@
+.m-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+
+    background-color: var(--bg-color-light);
+    padding: var(--spacing-4);
+    border-radius: var(--spacing-3);
+}

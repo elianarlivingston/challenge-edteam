@@ -1,0 +1,23 @@
+.a-fs-xlarge {
+    font-size: var(--fs-xlarge)
+}
+
+.a-fs-large {
+    font-size: var(--fs-large)
+}
+
+.a-fs-medium {
+    font-size: var(--fs-medium)
+}
+
+.a-fs-regular {
+    font-size: var(--fs-regular)
+}
+
+.a-fs-small {
+    font-size: var(--fs-medium)
+}
+
+.a-fs-xsmall {
+    font-size: var(--fs-regular)
+}
