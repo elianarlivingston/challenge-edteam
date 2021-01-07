@@ -1,5 +1,4 @@
-// const apiUrl = proccess.env.REACT_APP_API_URL;
-const apiUrl = 'http://localhost:3333';
+const apiUrl = 'https://challenge-edteam-json-server.herokuapp.com';
 
 export default (url, options = {}) =>
   fetch(`${apiUrl}/${url}`, {
